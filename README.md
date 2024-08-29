@@ -21,7 +21,7 @@ First, you need to use my [websites](https://github.com/xvrqt/website-flake) fla
 ```nix
 {
   inputs = {
-    graphics.url = "github:xvrqt/graphics-website-flake";
+    graphics.url = "github:xvrqt/graphics-website";
   };
 
   outputs = {...} @ sites: {
