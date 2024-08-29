@@ -80,6 +80,7 @@
                 acmeRoot = null;
                 locations."/" = {
                   root = "${packages.default}";
+                  tryFiles = "$uri $uri.html /index.html";
                 };
               };
             };
